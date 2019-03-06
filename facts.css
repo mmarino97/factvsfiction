@@ -1,0 +1,54 @@
+*{
+  margin: auto;
+}
+
+body {
+  background-color: #dcddde;
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #656565;
+}
+
+h4{
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.buttons h3 {
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}

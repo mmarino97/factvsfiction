@@ -10,12 +10,8 @@
   border-radius:50%;
   position: relative;
 }
-.actual-alabama:hover #hover{
-  display: block;
-  z-index: 1;
-}
-.actual-alabama #hover {
-  display: none;
+.reveal-actual-alabama {
+  visibility: hidden;
   position: absolute;
   background-color: rgba(101, 101, 101, .8);
   color: #ffffff;
@@ -25,6 +21,7 @@
   top: 35px;
   text-align: center;
   padding: 10px;
+  z-index: 1;
 }
 
 .actual-georgia{
@@ -34,21 +31,18 @@
   border-radius:50%;
   position: relative;
   }
-.actual-georgia:hover #hover{
-    display: block;
-    z-index: 1;
-  }
-.actual-georgia #hover{
-    display: none;
-    position: absolute;
-    background-color: rgba(101, 101, 101, .8);
-    color: #ffffff;
-    width: 180px;
-    height: 110px;
-    left: 22px;
-    top: 22px;
-    text-align: center;
-    padding: 10px;
+.reveal-actual-georgia {
+  visibility: hidden;
+  position: absolute;
+  background-color: rgba(101, 101, 101, .8);
+  color: #ffffff;
+  width: 180px;
+  height: 110px;
+  left: 22px;
+  top: 22px;
+  text-align: center;
+  padding: 10px;
+  z-index: 1;
   }
 
 .actual-texas{
@@ -58,12 +52,8 @@
   border-radius:50%;
   position: relative;
 }
-.actual-texas:hover #hover{
-  display: block;
-  z-index: 1;
-}
-.actual-texas #hover{
-  display: none;
+.reveal-actual-texas {
+  visibility: hidden;
   position: absolute;
   background-color: rgba(101, 101, 101, .8);
   color: #ffffff;
@@ -73,7 +63,8 @@
   top: 16px;
   text-align: center;
   padding: 10px;
-}
+  z-index: 1;
+  }
 
 .actual-auburn{
   background-color: #000000;
@@ -1200,6 +1191,87 @@
   height: 110px;
   right: .5px;
   top: .5px;
+  text-align: center;
+  padding: 10px;
+}
+.visible{
+  visibility: visible;
+}
+
+.starter {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.starter-clemson{
+  background-color: #000000;
+  width: 90.37px;
+  height: 90.37px;
+  border-radius:50%;
+  position: relative;
+}
+.starter-clemson:hover #hover{
+  display: block;
+  z-index: 1;
+}
+.starter-clemson #hover{
+  display: none;
+  position: absolute;
+  background-color: rgba(101, 101, 101, .8);
+  color: #ffffff;
+  width: 180px;
+  height: 110px;
+  left: 45px;
+  top: 45px;
+  text-align: center;
+  padding: 10px;
+}
+
+.starter-alabama{
+  background-color: #000000;
+  width: 84.16px;
+  height: 84.16px;
+  border-radius:50%;
+  position: relative;
+}
+.starter-alabama:hover #hover{
+  display: block;
+  z-index: 1;
+}
+.starter-alabama #hover{
+  display: none;
+  position: absolute;
+  background-color: rgba(101, 101, 101, .8);
+  color: #ffffff;
+  width: 180px;
+  height: 110px;
+  left: 42px;
+  top: 42px;
+  text-align: center;
+  padding: 10px;
+}
+
+.starter-ohiostate{
+  background-color: #000000;
+  width: 76.34px;
+  height: 76.34px;
+  border-radius:50%;
+  position: relative;
+}
+.starter-ohiostate:hover #hover{
+  display: block;
+  z-index: 1;
+}
+.starter-ohiostate #hover{
+  display: none;
+  position: absolute;
+  background-color: rgba(101, 101, 101, .8);
+  color: #ffffff;
+  width: 180px;
+  height: 110px;
+  left: 38px;
+  top: 38px;
   text-align: center;
   padding: 10px;
 }

@@ -11,6 +11,7 @@ body {
 h1 {
   text-align: center;
   color: #656565;
+  margin-bottom: 10px;
 }
 
 h4{
@@ -24,6 +25,14 @@ h5 {
   font-weight: 500;
 }
 
+p{
+  text-indent: 30px;
+  margin-bottom: 10px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
 
 em {
   font-style: normal;
@@ -38,17 +47,22 @@ a:hover {
   text-decoration: underline;
 }
 
+
 .buttons {
-  display: flex;
-  justify-content: space-around;
+  position: relative;
 }
 .buttons h3 {
-  background-color: blue;
-  width: 200px;
-  height: 50px;
-  color: #FFFFFF;
-  text-align: center;
+  color: #656565;
   margin: 20px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 15px;
+}
+.button-modal{
+  visibility: hidden;
+  background-color: rgba(200, 200, 200, 1);
+  color: #000000;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  z-index: 3
 }

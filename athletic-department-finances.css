@@ -1,0 +1,57 @@
+.buttons{
+  display: flex;
+}
+.button{
+  background-color: red;
+  border-radius: 5px;
+  height: 25px;
+  padding: 5px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+
+#myInput {
+  font-size: 12px; /* Increase font-size */
+  padding: 5px; /* Add some padding */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  font-size: 18px; /* Increase font-size */
+  overflow: auto;
+  height: 100px;
+}
+
+ th, td {
+  text-align: center; /* Left-align text */
+  padding: 5px; /* Add padding */
+  border: 1px solid #656565;
+}
+
+th {
+  font-size: 16px;
+  color: red;
+  font-weight: 700;
+}
+
+td {
+  font-size: 12px;
+}
+
+tr{
+  background-color: #ffffff;
+}
+tr.table-header{
+  background-color: #dadada;
+}
+
+
+tr:hover {
+  background-color: rgba(253, 172, 172, .32);
+}
+
+.hidden{
+  display: none;
+}

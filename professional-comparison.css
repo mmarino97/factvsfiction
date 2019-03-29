@@ -1,0 +1,122 @@
+h3 {
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-size: 15px;
+  transform: rotate(-25deg);
+  color: #000000;
+  position: absolute;
+  top: -45px;
+  white-space: nowrap;
+}
+
+
+h5  {
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-size: 15px;
+  transform: rotate(90deg);
+  color: #ffffff;
+  z-index: 1;
+}
+
+.space {
+  height: 75px;
+}
+
+.rectangle{
+  background-color: #1f60ad;
+  width: 30px;
+}
+.rectangle1{
+  background-color: #000000;
+  width: 30px;
+}
+.rectangle2{
+  background-color: #dc8335;
+  width: 30px;
+}
+#salary {
+  position: absolute;
+  bottom: 19px;
+  left: -7px;
+}
+#revenue {
+  position: absolute;
+  top: 11px;
+  left: 0px;
+}
+.graph{
+  display: flex;
+  justify-content: space-between;
+}
+.cowboys{
+  position: relative;
+}
+.cowboys-revenue{
+  height: 663.8px;
+}
+.cowboys-salary{
+  height: 177.2px;
+}
+.cowboys-millions{
+  visibility: visible;
+}
+.cowboys-percentage{
+  visibility: hidden;
+}
+
+.texas{
+  position: relative;
+}
+.texas-revenue{
+  height: 136.6px;
+}
+.texas-salary{
+  height: 4.4px;
+}
+.texas-millions{
+  visibility: visible;
+}
+.texas-percentage{
+  visibility: hidden;
+}
+
+
+.patriots{
+  position: relative;
+}
+.patriots-revenue{
+  height: 415.8px;
+}
+.patriots-salary{
+  height: 177.2px;
+}
+.patriots-millions{
+  visibility: visible;
+}
+.patriots-percentage{
+  visibility: hidden;
+}
+
+.tennessee{
+  position: relative;
+}
+.tennessee-revenue{
+  height: 106.8px;
+}
+.tennessee-salary{
+  height: 4.2px;
+}
+.tennessee-millions{
+  visibility: visible;
+}
+.tennessee-percentage{
+  visibility: hidden;
+}
+
+
+
+.visible {
+  visibility: visible;
+}
+.hidden{
+  visibility:hidden;
+}

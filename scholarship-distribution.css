@@ -1,0 +1,188 @@
+.rectangle{
+  background-color: #1f60ad;
+  width: 30px;
+  position: relative;
+}
+
+.all-scholarships{
+  display: flex;
+  align-items: baseline;
+}
+
+h3 {
+  transform: rotate(-90deg);
+  color: #000000;
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  white-space: nowrap;
+  bottom: 40px;
+  left: -40px;
+  text-align: left;
+}
+h5 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  white-space: nowrap;
+  top: 10px;
+  left: 2px;
+  text-align: left;
+}
+
+.fbs-football{
+  height: 765px;
+}
+
+.fcs-football{
+  height: 585px;
+}
+
+.rowing{
+  height: 180px;
+}
+
+.w-track{
+  height: 162px;
+}
+
+.w-icehockey{
+  height: 162px;
+}
+
+.m-icehockey{
+  height: 162px;
+}
+
+.w-basketball{
+  height: 135px;
+}
+
+.equestrian{
+  height: 135px;
+}
+
+.w-soccer{
+  height: 126px;
+}
+
+.w-swimanddive{
+  height: 126px;
+}
+
+.m-basketball{
+  height: 117px;
+}
+
+.m-track{
+  height: 113.4px;
+}
+
+.m-lax{
+  height: 113.4px;
+}
+
+.fieldhockey{
+  height: 108px;
+}
+
+.m-gymnastics{
+  height: 108px;
+}
+
+.w-lax{
+  height: 108px;
+}
+
+.rugby{
+  height: 108px;
+}
+
+.softball{
+  height: 108px;
+}
+
+.w-volleyball{
+  height: 108px;
+}
+
+.baseball{
+  height: 105.3px;
+}
+
+.m-swimanddive{
+  height: 89.1px;
+}
+
+.wrestling{
+  height: 89.1px;
+}
+
+.w-tennis{
+  height: 72px;
+}
+
+.w-waterpolo{
+  height: 72px;
+}
+
+.w-skiing{
+  height: 63px;
+}
+
+.triathlon{
+  height: 58.5px;
+}
+
+.w-gymnastics{
+  height: 56.7px;
+}
+
+.m-skiing{
+  height: 56.7px;
+}
+
+.m-soccer{
+  height: 56.7px;
+}
+
+.w-golf{
+  height: 54px;
+}
+
+.beachvolleyball{
+  height: 54px;
+}
+
+.bowling{
+  height: 45px;
+}
+
+.w-fencing{
+  height: 45px;
+}
+
+.m-fencing{
+  height: 40.5px;
+}
+
+.m-golf{
+  height: 40.5px;
+}
+
+.m-tennis{
+  height: 40.5px;
+}
+
+.m-volleyball{
+  height: 40.5px;
+}
+
+.m-waterpolo{
+  height: 40.5px;
+}
+
+.rifle{
+  height: 32.4px;
+}

@@ -1,0 +1,30 @@
+.profit-equation{
+  display: flex;
+  align-items: flex-start;
+}
+
+.equation-parts{
+  text-align: center;
+  width: 200px;
+}
+.equation1{
+  position: relative;
+}
+.equation-modal{
+  visibility: hidden;
+  position: absolute;
+  text-align: left;
+  background-color: rgba(200, 200, 200, 1);
+  color: #000000;
+  z-index: 1;
+  padding: 10px;
+  top: 30px;
+  left: -60px;
+  width: 300px;
+}
+.visible{
+  visibility: visible;
+}
+h5{
+  margin-bottom: 20px;
+}

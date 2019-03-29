@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none;
+}
+
+
+.section p{
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.section{
+  position: relative;
+}
+
+
+.rectangle{
+  background-color: rgba(31, 96, 173, .8);
+  height: 10px;
+  position: absolute;
+  bottom: 5px;
+  z-index: -1;
+}
+
+.section-modal{
+  display: none;
+  position: absolute;
+  top: 20px;
+  background-color: rgba(200, 200, 200, 1);
+  color: #000000;
+  z-index: 1;
+  padding: 10px;
+  margin-left: 130px;
+}
+.section:hover .section-modal{
+  display: block;
+}
+.section-modal ul {
+  list-style-type: lower-alpha;
+  margin-left: 30px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.intro{
+  width: 483px;
+}
+
+.article1-1{
+  width: 8px;
+}
+
+.article1-2{
+  width: 99.5px;
+}
+
+.article1-3-1{
+  width: 33.5px;
+}
+
+.article1-3-2{
+  width: 33px;
+}

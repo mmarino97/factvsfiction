@@ -13,10 +13,45 @@
     body {
       background-color: #dcddde;
       font-family: "itc-avant-garde-gothic-pro", sans-serif;
+      margin: 20px;
+    }
+
+    .flex{
+      display: flex;
+    }
+
+    .side h1 {
+      color: #d21e1e;
+      transform: rotate(-90deg);
+      white-space: nowrap;
+      font-size: 90px;
+      margin:-80px -360px 0 -360px;
+    }
+
+    .header{
+      position: relative;
+    }
+    .header a{
+      color: #000000;
+      text-decoration: none;
+    }
+    .header a:hover {
+      text-decoration: underline;
+    }
+    .header h4{
+      font-size: 14px;
+      font-weight: 500;
+      text-align: right;
+      margin-left: 15px;
+    }
+    .header-links{
+      display: flex;
+      position: absolute;
+      top: 10px;
+      right: 10px;
     }
 
     h1 {
-      margin-top: 20px;
       text-align: center;
       color: #656565;
     }
@@ -28,7 +63,7 @@
 
     strong {
       font-style: italic;
-      font-weight: 400;
+      font-weight: 700;
     }
 
     .flex-pro-con {
@@ -36,66 +71,26 @@
       justify-content: space-around;
     }
 
-    .pro {
-      background-color: #1f60ad;
+    .fiction-buttons {
+      margin-top: 80px;
+      background-color: #ffffff;
       height: 200px;
-      width: 400px;
-      margin: 20px;
-      color: #ffffff;
+      width: 200px;
+      color: #656565;
+      text-align: center;
+      padding: 10px;
     }
-    .pro p {
-      margin: 10px;
-      font-weight: 300;
-      font-size: 12px;
-    }
-    .pro h5 {
-      margin: 10px;
-      font-weight: 500;
-      font-size: 15px;
-    }
-    .pro a {
-      margin: 10px;
-      font-weight: 300;
-      font-size: 12px;
+    .fiction-buttons a {
+      color: #656565;
       text-decoration: none;
-      color: #000000;
-      text-shadow: .5px .5px #656565;
+      display: inline-block;
     }
-    .pro a:hover {
-      text-decoration: underline;
-    }
-
-    .con {
-      background-color: #dc8335;
-      height: 200px;
-      width: 400px;
-      margin: 20px;
-      color: #ffffff;
-    }
-    .con p {
-      margin: 10px;
-      font-weight: 300;
-      font-size: 12px;
-    }
-    .con h5 {
-      margin: 10px;
-      font-weight: 500;
-      font-size: 15px;
-    }
-    .con a {
-      margin: 10px;
-      font-weight: 300;
-      font-size: 12px;
-      text-decoration: none;
-      color: #000000;
-      text-shadow: .5px .5px #656565;
-    }
-    .con a:hover {
+    .fiction-buttons a:hover {
       text-decoration: underline;
     }
 
     .summary {
-      margin: 20px 70px 40px 70px;
+      margin: 80px 20px 80px 20px;
     }
 
     .facts {
@@ -114,6 +109,8 @@
       height: 200px;
       border-radius: 50%;
       text-align: center;
+      padding: 10px;
+      margin-left: 30px;
     }
     .facts-buttons a{
       color: #FFFFFF;
@@ -126,50 +123,58 @@
 
   </style>
   <body>
-    <h1>Fact vs. Fiction: Should Student Athletes be Paid?</h1>
-    <div class="flex-pro-con">
-
-      <div class="pro">
-        <h5>"The only other time when labor does not get paid but yet someone else gets profits and the labor is black and the profit is white, is in slavery."</h5>
-        <p>Kylia Carter, mother of former Duke Men's Basketball player, Wendell Carter Jr. in May of 2018</p>
-        <a href="pro.html">Common arguments <em>for</em> paying student-athletes</a>
+  <div class="flex">
+    <div class="side">
+      <h1>Fact &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Fiction</h1>
+    </div>
+    <div class="middle">
+      <div class="header">
+        <div class="header-links">
+          <h4><a href="about.html">About</a></h4>
+          <h4><a href="sources.html">Sources</a></h4>
+        </div>
+        <h1>Should Student-Athletes be Paid?</h1>
       </div>
+      <div class="flex-pro-con">
+        <div class="fiction-buttons">
+          <h2><a href="pro.html">Arguments <em>for</em> paying student-athletes</a></h2>
+        </div>
 
-      <div class="con">
-        <h5>"I don't think we should ever compensate players...They can keep their meal money ... Everybody says, 'the coach makes this and the players[0].' The player is 17 years old. I've been working my whole life. There's a lot of 17-year-old kids that don't make money."</h5>
-        <p>Jim Boeheim, Syracuse Men's Basketball Head Coach in October of 2018</p>
-        <a href="con.html">Common arguments <em>against</em> paying student-athletes</a>
+        <div class="fiction-buttons">
+          <h2><a href="con.html">Arguments <em>against</em> paying student-athletes</a></h2>
+        </div>
       </div>
-  </div>
-  <div class="summary">
-    <p style="font-size:18px"><strong>Student-athletes are slaves</strong> versus <strong>I've been working my whole life.</strong> Unfortunately, these sensationalized arguments have become commonplace in the debate over whether or not student-athletes should be paid. Below, are the facts surrounding some key questions: how much do schools actually make off athletics; how would paying athletes change recruiting parity; how difficult is it to follow the rules; where do the terms amateur and student-athlete come from; how much do professional athletes really get paid;</p>
-  </div>
-  <div class="facts">
-    <div class="facts-buttons">
-      <h2><a href="ncaa-finances.html">NCAA Finances</a></h2>
-    </div>
-    <div class="facts-buttons">
-      <h2><a href="athletic-department-finances.html">Athletic Department Finances</a></h2>
-    </div>
-    <div class="facts-buttons">
-      <h2><a href="recruiting-parity.html">Recruiting Parity</a></h2>
-    </div>
-    <div class="facts-buttons">
-      <h2><a href="rulebook.html">The <br> Rulebook</a></h2>
-    </div>
-  </div>
-  <div class="facts">
-    <div class="facts-buttons">
-      <h2><a href="">Amateurism <br> Definition</a></h2>
-    </div>
-    <div class="facts-buttons">
-      <h2><a href="">Student-Athlete <br> Definition</a></h2>
-    </div>
-    <div class="facts-buttons">
-      <h2><a href="professional-comparison.html">Comparison to <br> Professional</a></h2>
-    </div>
-    <div class="facts-buttons">
-      <h2><a href="scholarship-distribution.html">Scholarship Distribution</a></h2>
+      <div class="summary">
+        <p style="font-size:18px"><strong>Student-athletes are slaves</strong> versus <strong>I've been working my whole life.</strong> Unfortunately, these sensationalized arguments have become commonplace in the debate over whether or not student-athletes should be paid. Below, are the facts surrounding some key questions: how much do schools actually make off athletics; how would paying athletes change recruiting parity; how difficult is it to follow the rules; where do the terms amateur and student-athlete come from; how much do professional athletes really get paid;</p>
+      </div>
+      <div class="facts">
+        <div class="facts-buttons">
+          <h2><a href="ncaa-finances.html">NCAA Finances</a></h2>
+        </div>
+        <div class="facts-buttons">
+          <h2><a href="athletic-department-finances.html">Athletic Department Finances</a></h2>
+        </div>
+        <div class="facts-buttons">
+          <h2><a href="recruiting-parity.html">Recruiting Parity</a></h2>
+        </div>
+        <div class="facts-buttons">
+          <h2><a href="rulebook.html">The <br> Rulebook</a></h2>
+        </div>
+      </div>
+      <div class="facts">
+        <div class="facts-buttons">
+          <h2><a href="">Amateurism <br> Definition</a></h2>
+        </div>
+        <div class="facts-buttons">
+          <h2><a href="">Student-Athlete <br> Definition</a></h2>
+        </div>
+        <div class="facts-buttons">
+          <h2><a href="professional-comparison.html">Comparison to <br> Professional</a></h2>
+        </div>
+        <div class="facts-buttons">
+          <h2><a href="scholarship-distribution.html">Scholarship Distribution</a></h2>
+        </div>
+      </div>
     </div>
   </div>
   </body>

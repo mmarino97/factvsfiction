@@ -1,60 +1,74 @@
+body {
+  height: 1050px;
+}
+
+.line {
+  background-color: #000000;
+  width: 100%;
+  height: 2px;
+  position: relative;
+  top: 800px;
+}
+
 h3 {
   font-family: "itc-avant-garde-gothic-pro", sans-serif;
   font-size: 15px;
-  transform: rotate(-25deg);
-  color: #000000;
-  position: absolute;
-  top: -45px;
+  font-weight: 400;
+  transform: rotate(-90deg);
+  color: #9e9e9e;
   white-space: nowrap;
+  position: relative;
+  right: 25px;
 }
 
 
 h5  {
   font-family: "itc-avant-garde-gothic-pro", sans-serif;
   font-size: 15px;
-  transform: rotate(90deg);
-  color: #ffffff;
-  z-index: 1;
+  font-weight: 400;
+  transform: rotate(-90deg);
+  color: #000000;
+  line-height: 30px;
 }
 
-.space {
-  height: 75px;
-}
-
-.rectangle{
-  background-color: #1f60ad;
-  width: 30px;
-}
-.rectangle1{
-  background-color: #000000;
-  width: 30px;
-}
-.rectangle2{
-  background-color: #dc8335;
-  width: 30px;
-}
-#salary {
-  position: absolute;
-  bottom: 19px;
-  left: -7px;
-}
-#revenue {
-  position: absolute;
-  top: 11px;
-  left: 0px;
-}
 .graph{
   display: flex;
   justify-content: space-between;
 }
-.cowboys{
-  position: relative;
+
+.rectangle{
+  background-color: #757575;
+  width: 30px;
+  position: absolute;
+  bottom: 0px;
 }
+.rectangle1{
+  background-color: #d21e1e;
+  width: 30px;
+  position: absolute;
+  top: 0px;
+}
+.rectangle2{
+  background-color: #a5a5a5;
+  width: 30px;
+  position: absolute;
+  bottom: 0px;
+}
+
+#revenue {
+  position: absolute;
+  bottom: 20px;
+}
+#salary {
+  position: absolute;
+  top: 20px;
+}
+
 .cowboys-revenue{
-  height: 663.8px;
+  height: 733.8px;
 }
 .cowboys-salary{
-  height: 177.2px;
+  height: 130.2px;
 }
 .cowboys-millions{
   visibility: visible;
@@ -62,10 +76,11 @@ h5  {
 .cowboys-percentage{
   visibility: hidden;
 }
-
-.texas{
-  position: relative;
+.cowboys h3{
+  top: 700px;
 }
+
+
 .texas-revenue{
   height: 136.6px;
 }
@@ -78,16 +93,15 @@ h5  {
 .texas-percentage{
   visibility: hidden;
 }
-
-
-.patriots{
-  position: relative;
+.texas h3 {
+  top: 103px;
 }
+
 .patriots-revenue{
-  height: 415.8px;
+  height: 442.5px;
 }
 .patriots-salary{
-  height: 177.2px;
+  height: 150.5px;
 }
 .patriots-millions{
   visibility: visible;
@@ -95,10 +109,10 @@ h5  {
 .patriots-percentage{
   visibility: hidden;
 }
-
-.tennessee{
-  position: relative;
+.patriots h3{
+  top: 409px;
 }
+
 .tennessee-revenue{
   height: 106.8px;
 }
@@ -111,8 +125,265 @@ h5  {
 .tennessee-percentage{
   visibility: hidden;
 }
+.tennessee h3 {
+  top: 73px;
+}
 
+.giants-revenue{
+  height: 341.8px;
+}
+.giants-salary{
+  height: 151.2px;
+}
+.giants-millions{
+  visibility: visible;
+}
+.giants-percentage{
+  visibility: hidden;
+}
+.giants h3{
+  top: 308px;
+}
 
+.alabama-revenue{
+  height: 104px;
+}
+.alabama-salary{
+  height: 4px;
+}
+.alabama-millions{
+  visibility: visible;
+}
+.alabama-percentage{
+  visibility: hidden;
+}
+.alabama h3{
+  top: 71px;
+}
+
+.redskins-revenue{
+  height: 334.7px;
+}
+.redskins-salary{
+  height: 156.3px;
+}
+.redskins-millions{
+  visibility: visible;
+}
+.redskins-percentage{
+  visibility: hidden;
+}
+.redskins h3{
+  top: 301px;
+}
+
+.michigan-revenue{
+  height: 100.7px;
+}
+.michigan-salary{
+  height: 5.3px;
+}
+.michigan-millions{
+  visibility: visible;
+}
+.michigan-percentage{
+  visibility: hidden;
+}
+.michigan h3{
+  top: 67px;
+}
+
+.sanfran-revenue{
+  height: 370.8px;
+}
+.sanfran-salary{
+  height: 99.2px;
+}
+.sanfran-millions{
+  visibility: visible;
+}
+.sanfran-percentage{
+  visibility: hidden;
+}
+.sanfran h3{
+  top: 337px;
+}
+
+.notredame-revenue{
+  height: 91.1px;
+}
+.notredame-salary{
+  height: 5.9px;
+}
+.notredame-millions{
+  visibility: visible;
+}
+.notredame-percentage{
+  visibility: hidden;
+}
+.notredame h3{
+  top: 58px;
+}
+
+.texans-revenue{
+  height: 322.5px;
+}
+.texans-salary{
+  height: 141.5px;
+}
+.texans-millions{
+  visibility: visible;
+}
+.texans-percentage{
+  visibility: hidden;
+}
+.texans h3{
+  top: 289px;
+}
+
+.oklahoma-revenue{
+  height: 92.3px;
+}
+.oklahoma-salary{
+  height: 3.7px;
+}
+.oklahoma-millions{
+  visibility: visible;
+}
+.oklahoma-percentage{
+  visibility: hidden;
+}
+.oklahoma h3 {
+  top: 59px;
+}
+
+.eagles-revenue{
+  height: 308.9px;
+}
+.eagles-salary{
+  height: 149.1px;
+}
+.eagles-millions{
+  visibility: visible;
+}
+.eagles-percentage{
+  visibility: hidden;
+}
+.eagles h3 {
+  top: 275px;
+}
+
+.georgia-revenue{
+  height: 89.2px;
+}
+.georgia-salary{
+  height: 3.8px;
+}
+.georgia-millions{
+  visibility: visible;
+}
+.georgia-percentage{
+  visibility: hidden;
+}
+.georgia h3{
+  top: 56px;
+}
+
+.falcons-revenue{
+  height: 295.3px;
+}
+.falcons-salary{
+  height: 155.7px;
+}
+.falcons-millions{
+  visibility: visible;
+}
+.falcons-percentage{
+  visibility: hidden;
+}
+.falcons h3 {
+  top: 262px;
+}
+
+.ohiostate-revenue{
+  height: 88.3px;
+}
+.ohiostate-salary{
+  height: 3.7px;
+}
+.ohiostate-millions{
+  visibility: visible;
+}
+.ohiostate-percentage{
+  visibility: hidden;
+}
+.ohiostate h3{
+  top: 55px;
+}
+
+.jets-revenue{
+  height: 323.6px;
+}
+.jets-salary{
+  height: 119.4px;
+}
+.jets-millions{
+  visibility: visible;
+}
+.jets-percentage{
+  visibility: hidden;
+}
+.jets h3{
+  top: 290px;
+}
+
+.floridastate-revenue{
+  height: 86.1px;
+}
+.floridastate-salary{
+  height: 3.9px;
+}
+.floridastate-millions{
+  visibility: visible;
+}
+.floridastate-percentage{
+  visibility: hidden;
+}
+.floridastate h3{
+  top: 53px;
+}
+
+.packers-revenue{
+  height: 323.6px;
+}
+.packers-salary{
+  height: 153.1px;
+}
+.packers-millions{
+  visibility: visible;
+}
+.packers-percentage{
+  visibility: hidden;
+}
+.packers h3{
+  top: 290px;
+}
+
+.pennstate-revenue{
+  height: 85.6px;
+}
+.pennstate-salary{
+  height: 4.4px;
+}
+.pennstate-millions{
+  visibility: visible;
+}
+.pennstate-percentage{
+  visibility: hidden;
+}
+.pennstate h3 {
+  top: 52px;
+}
 
 .visible {
   visibility: visible;

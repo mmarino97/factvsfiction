@@ -3,6 +3,7 @@
   align-items: flex-start;
 }
 
+
 .equation-parts{
   text-align: center;
   width: 200px;
@@ -27,4 +28,14 @@
 }
 h5{
   margin-bottom: 20px;
+}
+
+.equation-parts h1{
+  background-color: #656565;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  color: #ffffff;
+  line-height: 100px;
 }

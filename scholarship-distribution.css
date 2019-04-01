@@ -2,33 +2,32 @@
   background-color: #1f60ad;
   width: 30px;
   position: relative;
+
 }
 
 .all-scholarships{
   display: flex;
   align-items: baseline;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 h3 {
   transform: rotate(-90deg);
   color: #000000;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 15px;
-  position: absolute;
   white-space: nowrap;
-  bottom: 40px;
-  left: -40px;
-  text-align: left;
+  position: relative;
+  bottom: 30px;
 }
 h5 {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 15px;
-  position: absolute;
+  position: relative;
   white-space: nowrap;
-  top: 10px;
-  left: 2px;
-  text-align: left;
+  top: -15px;
 }
 
 .fbs-football{

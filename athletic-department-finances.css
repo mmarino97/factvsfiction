@@ -2,14 +2,13 @@
   display: flex;
 }
 .button{
-  background-color: red;
+  background-color: #d21e1e;
   border-radius: 5px;
   height: 25px;
   padding: 5px;
   margin-bottom: 12px;
   color: #ffffff;
 }
-
 
 #myInput {
   font-size: 12px; /* Increase font-size */
@@ -19,9 +18,6 @@
 
 #myTable {
   border-collapse: collapse; /* Collapse borders */
-  font-size: 18px; /* Increase font-size */
-  overflow: auto;
-  height: 100px;
 }
 
  th, td {
@@ -30,9 +26,10 @@
   border: 1px solid #656565;
 }
 
+
 th {
   font-size: 16px;
-  color: red;
+  color: #d21e1e;
   font-weight: 700;
 }
 
@@ -43,10 +40,10 @@ td {
 tr{
   background-color: #ffffff;
 }
+
 tr.table-header{
   background-color: #dadada;
 }
-
 
 tr:hover {
   background-color: rgba(253, 172, 172, .32);

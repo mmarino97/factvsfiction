@@ -75,6 +75,9 @@ a:hover {
   width: 1100px;
   margin-top: 50px;
 }
+.quotes h3{
+  font-weight: 300;
+}
 .quotes h4{
   margin-bottom: 40px;
 }

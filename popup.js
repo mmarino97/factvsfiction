@@ -511,3 +511,423 @@ $(document).ready(function (){
         $(".reveal-starter-iowastate").toggleClass("visible");
         });
 });
+
+
+
+
+
+$(document).ready(function (){
+
+    $(".scholarship-clemson").click(function() {
+        $(".reveal-scholarship-clemson").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-florida").click(function() {
+        $(".reveal-scholarship-florida").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-texas").click(function() {
+        $(".reveal-scholarship-texas").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-georgia").click(function() {
+        $(".reveal-scholarship-georgia").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-syracuse").click(function() {
+        $(".reveal-scholarship-syracuse").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-oklahoma").click(function() {
+        $(".reveal-scholarship-oklahoma").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-lsu").click(function() {
+        $(".reveal-scholarship-lsu").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-pennstate").click(function() {
+        $(".reveal-scholarship-pennstate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-texasam").click(function() {
+        $(".reveal-scholarship-texasam").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-alabama").click(function() {
+        $(".reveal-scholarship-alabama").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-northwestern").click(function() {
+        $(".reveal-scholarship-northwestern").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-washington").click(function() {
+        $(".reveal-scholarship-washington").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-ucf").click(function() {
+        $(".reveal-scholarship-ucf").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-boisestate").click(function() {
+        $(".reveal-scholarship-boisestate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-utahstate").click(function() {
+        $(".reveal-scholarship-utahstate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-ohiostate").click(function() {
+        $(".reveal-scholarship-ohiostate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-cincinatti").click(function() {
+        $(".reveal-scholarship-cincinatti").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".scholarship-iowa").click(function() {
+        $(".reveal-scholarship-iowa").toggleClass("visible");
+        });
+});
+
+
+
+
+$(document).ready(function (){
+
+    $(".money-oklahoma").click(function() {
+        $(".reveal-money-oklahoma").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-clemson").click(function() {
+        $(".reveal-money-clemson").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-notredame").click(function() {
+        $(".reveal-money-notredame").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-lsu").click(function() {
+        $(".reveal-money-lsu").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-alabama").click(function() {
+        $(".reveal-money-alabama").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-ohiostate").click(function() {
+        $(".reveal-money-ohiostate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-florida").click(function() {
+        $(".reveal-money-florida").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-georgia").click(function() {
+        $(".reveal-money-georgia").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-texas").click(function() {
+        $(".reveal-money-texas").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-washingtonstate").click(function() {
+        $(".reveal-money-washingtonstate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-ucf").click(function() {
+        $(".reveal-money-ucf").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-kentucky").click(function() {
+        $(".reveal-money-kentucky").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-washington").click(function() {
+        $(".reveal-money-washington").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-michigan").click(function() {
+        $(".reveal-money-michigan").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-syracuse").click(function() {
+        $(".reveal-money-syracuse").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-texasam").click(function() {
+        $(".reveal-money-texasam").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-pennstate").click(function() {
+        $(".reveal-money-pennstate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-northwestern").click(function() {
+        $(".reveal-money-northwestern").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-boisestate").click(function() {
+        $(".reveal-money-boisestate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-iowa").click(function() {
+        $(".reveal-money-iowa").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-stanford").click(function() {
+        $(".reveal-money-stanford").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-mississippistate").click(function() {
+        $(".reveal-money-mississippistate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-utah").click(function() {
+        $(".reveal-money-utah").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-tennessee").click(function() {
+        $(".reveal-money-tennessee").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-auburn").click(function() {
+        $(".reveal-money-auburn").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-wisconsin").click(function() {
+        $(".reveal-money-wisconsin").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-michiganstate").click(function() {
+        $(".reveal-money-michiganstate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-floridastate").click(function() {
+        $(".reveal-money-floridastate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".money-oregon").click(function() {
+        $(".reveal-money-oregon").toggleClass("visible");
+        });
+});
+
+
+
+$(document).ready(function (){
+
+    $(".revenue-ohiostate").click(function() {
+        $(".reveal-revenue-ohiostate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-floridastate").click(function() {
+        $(".reveal-revenue-floridastate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-lsu").click(function() {
+        $(".reveal-revenue-lsu").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-florida").click(function() {
+        $(".reveal-revenue-florida").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-pennstate").click(function() {
+        $(".reveal-revenue-pennstate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-auburn").click(function() {
+        $(".reveal-revenue-auburn").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-washington").click(function() {
+        $(".reveal-revenue-washington").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-wisconsin").click(function() {
+        $(".reveal-revenue-wisconsin").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-georgia").click(function() {
+        $(".reveal-revenue-georgia").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-arkansas").click(function() {
+        $(".reveal-revenue-arkansas").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-oklahoma").click(function() {
+        $(".reveal-revenue-oklahoma").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-notredame").click(function() {
+        $(".reveal-revenue-notredame").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-texasam").click(function() {
+        $(".reveal-revenue-texasam").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-michigan").click(function() {
+        $(".reveal-revenue-michigan").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-nebraska").click(function() {
+        $(".reveal-revenue-nebraska").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-texas").click(function() {
+        $(".reveal-revenue-texas").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-alabama").click(function() {
+        $(".reveal-revenue-alabama").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-tennessee").click(function() {
+        $(".reveal-revenue-tennessee").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-oregon").click(function() {
+        $(".reveal-revenue-oregon").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-michiganstate").click(function() {
+        $(".reveal-revenue-michiganstate").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+
+    $(".revenue-olemiss").click(function() {
+        $(".reveal-revenue-olemiss").toggleClass("visible");
+        });
+});

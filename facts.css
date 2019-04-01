@@ -47,7 +47,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .buttons {
   position: relative;
 }
@@ -65,4 +64,23 @@ a:hover {
   position: absolute;
   top: 20px;
   z-index: 3
+}
+
+.artist-statement{
+  width: 1100px;
+  margin-top: 50px;
+}
+
+.quotes {
+  width: 1100px;
+  margin-top: 50px;
+}
+.quotes h4{
+  margin-bottom: 40px;
+}
+.individual-quote:nth-child(odd){
+  color: #8c8c8c;
+}
+.individual-quote:nth-child(even){
+  color: #545454;
 }

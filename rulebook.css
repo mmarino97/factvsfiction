@@ -1,8 +1,12 @@
 ul {
   list-style-type: none;
 }
-
-
+h5{
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -15px;
+  font-size: 10px;
+}
 .section p{
   font-size: 15px;
   line-height: 15px;
@@ -14,7 +18,7 @@ ul {
 
 
 .rectangle{
-  background-color: rgba(31, 96, 173, .8);
+  background-color: rgba(210, 30, 30, .7);
   height: 10px;
   position: absolute;
   bottom: 5px;
@@ -30,6 +34,7 @@ ul {
   z-index: 1;
   padding: 10px;
   margin-left: 130px;
+  width: 800px;
 }
 .section:hover .section-modal{
   display: block;
@@ -47,19 +52,117 @@ ul {
 .intro{
   width: 483px;
 }
-
 .article1-1{
   width: 8px;
 }
-
 .article1-2{
   width: 99.5px;
 }
-
 .article1-3-1{
   width: 33.5px;
 }
-
 .article1-3-2{
   width: 33px;
+}
+.article2-01{
+  width: 26.5px;
+}
+.article2-1-1{
+  width: 29.5px;
+}
+.article2-1-2{
+  width: 23px;
+}
+.article2-2{
+  width: 16px;
+}
+.article2-2-1{
+  width: 19px;
+}
+.article2-2-2{
+  width: 19.5px;
+}
+.article2-2-3{
+  width: 16px;
+}
+.article2-2-4{
+  width: 16.5px;
+}
+.article2-2-5{
+  width: 16.5px;
+}
+.article2-2-6{
+  width: 12.5px;
+}
+.article2-3-1{
+  width: 19.5px;
+}
+.article2-3-2{
+  width: 18.5px;
+}
+.article2-3-3{
+  width:11.5px;
+}
+.article2-4{
+  width:63.5px;
+}
+.article2-5{
+  width:30px;
+}
+.article2-6{
+  width:44.5px;
+}
+.article2.7{
+  width: 25px;
+}
+.article2-8-1{
+  width:51px;
+}
+.article2-8-2{
+  width:22.5px;
+}
+.article2-8-3{
+  width: 15px;
+}
+.article2-9{
+  width: 27px;
+}
+.article2-10{
+  width: 24.5px;
+}
+.article2-11{
+  width: 34px;
+}
+.article2-12{
+  width: 15px;
+}
+.article2-13{
+  width: 43px;
+}
+.article2-14{
+  width: 22px;
+}
+.article2-15{
+  width: 30.5px;
+}
+.article2-16{
+  width: 24.5px;
+}
+.article3-01-1{
+  width: 22px;
+}
+.article3-01-2{
+  width: 17px;
+}
+.article3-01-3{
+  width: 21.5px;
+}
+.article3-01-4{
+  width: 11px;
+}
+.article3-02-1{
+  width: 13px;
+}
+.article3-02-2{
+  width: 13px;
 }

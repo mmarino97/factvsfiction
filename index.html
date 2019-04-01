@@ -25,7 +25,7 @@
       transform: rotate(-90deg);
       white-space: nowrap;
       font-size: 90px;
-      margin:-80px -360px 0 -360px;
+      margin:-130px -330px 0 -330px;
     }
 
     .header{
@@ -57,8 +57,7 @@
     }
 
     em {
-      font-style: normal;
-      font-weight: 700;
+      font-style: italic;
     }
 
     strong {
@@ -72,25 +71,29 @@
     }
 
     .fiction-buttons {
-      margin-top: 80px;
+      margin-top: 30px;
       background-color: #ffffff;
       height: 200px;
       width: 200px;
       color: #656565;
       text-align: center;
       padding: 10px;
+      position: relative;
     }
     .fiction-buttons a {
       color: #656565;
       text-decoration: none;
-      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     .fiction-buttons a:hover {
       text-decoration: underline;
     }
 
     .summary {
-      margin: 80px 20px 80px 20px;
+      margin: 30px 20px 30px 20px;
     }
 
     .facts {
@@ -111,11 +114,15 @@
       text-align: center;
       padding: 10px;
       margin-left: 30px;
+      position: relative;
     }
     .facts-buttons a{
       color: #FFFFFF;
       text-decoration: none;
-      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     .facts-buttons a:hover{
       text-decoration: underline;
@@ -125,7 +132,7 @@
   <body>
   <div class="flex">
     <div class="side">
-      <h1>Fact &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Fiction</h1>
+      <h1>Fact &nbsp &nbsp &nbsp &nbsp Fiction</h1>
     </div>
     <div class="middle">
       <div class="header">
@@ -137,11 +144,11 @@
       </div>
       <div class="flex-pro-con">
         <div class="fiction-buttons">
-          <h2><a href="pro.html">Arguments <em>for</em> paying student-athletes</a></h2>
+          <h2><a href="pro.html">Quotes <em>supporting</em> paying student-athletes</a></h2>
         </div>
 
         <div class="fiction-buttons">
-          <h2><a href="con.html">Arguments <em>against</em> paying student-athletes</a></h2>
+          <h2><a href="con.html">Quotes <em>against</em> paying student-athletes</a></h2>
         </div>
       </div>
       <div class="summary">
@@ -155,24 +162,25 @@
           <h2><a href="athletic-department-finances.html">Athletic Department Finances</a></h2>
         </div>
         <div class="facts-buttons">
-          <h2><a href="recruiting-parity.html">Recruiting Parity</a></h2>
+          <h2><a href="scholarship-distribution.html">Scholarship Distribution</a></h2>
         </div>
+
         <div class="facts-buttons">
           <h2><a href="rulebook.html">The <br> Rulebook</a></h2>
         </div>
       </div>
       <div class="facts">
         <div class="facts-buttons">
-          <h2><a href="">Amateurism <br> Definition</a></h2>
+          <h2><a href="history.html">NCAA History</a></h2>
         </div>
         <div class="facts-buttons">
-          <h2><a href="">Student-Athlete <br> Definition</a></h2>
+          <h2><a href="court-cases.html">NCAA and the Supreme Court</a></h2>
         </div>
         <div class="facts-buttons">
           <h2><a href="professional-comparison.html">Comparison to <br> Professional</a></h2>
         </div>
         <div class="facts-buttons">
-          <h2><a href="scholarship-distribution.html">Scholarship Distribution</a></h2>
+          <h2><a href="recruiting-parity.html">Recruiting Parity</a></h2>
         </div>
       </div>
     </div>

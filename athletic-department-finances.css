@@ -9,6 +9,9 @@
   margin-bottom: 12px;
   color: #ffffff;
 }
+.button:hover {
+  text-decoration: underline;
+}
 
 #myInput {
   font-size: 12px; /* Increase font-size */
@@ -31,6 +34,9 @@ th {
   font-size: 16px;
   color: #d21e1e;
   font-weight: 700;
+}
+th:hover {
+  text-decoration: underline;
 }
 
 td {

@@ -1,5 +1,5 @@
 .rectangle{
-  background-color: #1f60ad;
+  background-color: #757575;
   width: 30px;
   position: relative;
 
@@ -8,27 +8,20 @@
 .all-scholarships{
   display: flex;
   align-items: baseline;
-  margin-top: 100px;
+  margin-top: 140px;
   margin-bottom: 20px;
 }
 
 h3 {
   transform: rotate(-90deg);
-  color: #000000;
+  color: #d21e1e;
   font-weight: 400;
   font-size: 15px;
   white-space: nowrap;
   position: relative;
   bottom: 30px;
 }
-h5 {
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 15px;
-  position: relative;
-  white-space: nowrap;
-  top: -15px;
-}
+
 
 .fbs-football{
   height: 765px;

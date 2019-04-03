@@ -7,6 +7,10 @@
   background-color: grey;
 }
 
+h3:hover {
+  text-decoration: underline;
+}
+
 .reveal-modal{
   visibility: hidden;
   position: absolute;

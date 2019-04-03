@@ -82,8 +82,12 @@ a:hover {
   margin-bottom: 40px;
 }
 .individual-quote:nth-child(odd){
-  color: #8c8c8c;
+  color: #232323;
 }
 .individual-quote:nth-child(even){
-  color: #545454;
+  color: #797979;
+}
+
+.space{
+  height: 10px;
 }

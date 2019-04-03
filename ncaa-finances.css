@@ -6,6 +6,7 @@
   text-align: center;
 }
 
+
 .equation-parts{
   text-align: center;
   width: 200px;
@@ -46,4 +47,8 @@ h2{
   position: relative;
   color: #ffffff;
   line-height: 100px;
+}
+
+.equation-parts h1:hover{
+  text-decoration: underline;
 }

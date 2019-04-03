@@ -14,6 +14,7 @@
 }
 .equation1{
   position: relative;
+  width: 200px;
 }
 .equation-modal{
   visibility: hidden;

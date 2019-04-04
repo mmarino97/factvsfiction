@@ -1,3 +1,8 @@
+.full-equation{
+  margin: 30px;
+}
+
+
 .profit-equation{
   display: flex;
 }
@@ -5,7 +10,6 @@
 .equation{
   text-align: center;
 }
-
 
 .equation-parts{
   text-align: center;
